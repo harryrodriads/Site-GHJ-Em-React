@@ -30,12 +30,10 @@ export const Banner = () => {
             <img src={Check} alt="Check" className="checkLogo" />
             <h3 className="textCard">Sistema de controle de qualidade, garantia de 100% de satisfação</h3>
           </div>
-
           <div className={styles.contentCard}>
             <img src={Check} alt="Check" className="checkLogo" />
             <h3 className="textCard">Equipe altamente profissional, processos de teste precisos</h3>
           </div>
-
           <div className={styles.contentCard}>
             <img src={Check} alt="Check" className="checkLogo" />
             <h3 className="textCard">Mão de obra incomparável, profissional e qualificada</h3>
