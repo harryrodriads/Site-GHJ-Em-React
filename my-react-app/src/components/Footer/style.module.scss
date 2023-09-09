@@ -1,0 +1,45 @@
+
+.footerContent{
+  display: flex;
+  flex-direction: column;
+  background-color: #191A19;
+  gap: 10px;
+  padding: 40px 10%;
+  
+
+  .divFooter{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .imgLogo{
+    width: 150px;
+    filter: brightness(100)
+  }
+
+  .divOne{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+  }
+
+  .socialLogos{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .divTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .divThree{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

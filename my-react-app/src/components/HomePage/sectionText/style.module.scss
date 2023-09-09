@@ -1,0 +1,23 @@
+
+
+.sectionText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #191A19;
+  padding: 30px 15%;
+
+
+  .divText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .contentCard{
+      display: flex;
+      gap: 10px;
+    }
+
+  }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+:root{
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey0:#F8F9FA;
+  --color-grey1:#868E96;
+  --color-grey2: #343B41;
+  --color-grey3: #212529;
+  --color-grey4: #121214;
+  --color-grey5: #2c2c2e;
+  --color-primary: #272562;
+  --color-secundary: #37429a;
+  --color-third: #343666;
+  --color-sucess: #3FE864;
+  --color-negative: #E83F5B;
+  --font-family: 'Poppins', sans-serif;
+  --font-cursive: 'Comforter Brush', sans-serif;
+}
+
+span{
+  color: var(--color-secundary);
+}
+
+li{
+  list-style: none;
+}
