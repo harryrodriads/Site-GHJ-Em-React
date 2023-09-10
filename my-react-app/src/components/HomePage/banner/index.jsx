@@ -11,7 +11,7 @@ export const Banner = () => {
       </figure>
       <div className={styles.divPrimary}>
         <h1 className="titlebanner">Nós preparamos</h1>
-        <h1 className="titlebanner">Para o <span>futuro</span> </h1>
+        <h1 className="titlebanner">para o <span>futuro!</span> </h1>
         <p className="textbanner">Oferecemos o melhor projeto arquitetônico, construção e</p>
         <p className="textbanner">serviços de manutenção predial para você.</p>
       </div>
