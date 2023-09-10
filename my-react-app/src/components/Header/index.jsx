@@ -1,12 +1,11 @@
 import styles from "./style.module.scss";
 import LogoPadrao from "../../assets/LogoPadrao.png";
-import { SectionForm } from "../HomePage/sectionForm";
 
 
 export const HeaderBar = () => {
   return(
     <header id="header" className={styles.header}>
-      <img src={ LogoPadrao} alt="#" />
+      <a href="#header"><img src={ LogoPadrao} alt="#" /></a>
       <nav>
         <h2 className="titleHeader"><a href="#header">Pagina Inicial</a></h2>
         <h2 className="titleHeader"><a href="#footerContent">Sobre</a></h2>
