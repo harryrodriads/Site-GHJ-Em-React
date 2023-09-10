@@ -20,5 +20,5 @@ export const Home = () => {
       <SectionForm/>
       <Footer/>
     </div>
-  );
-};
+  )
+}

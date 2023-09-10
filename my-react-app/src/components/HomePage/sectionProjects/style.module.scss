@@ -10,13 +10,11 @@
   ul {
     display: flex;
     gap: 40px;
-    white-space: nowrap; /* Evita quebrar linhas de conteúdo */
+    white-space: nowrap;
     animation: scrollContent 50s linear infinite;
     width: 2500px;
-    
     overflow-y: hidden;
     overflow-x: hidden;
-    
 
     li{
       width: 280px;
@@ -49,10 +47,6 @@
       transform: translateX(-100%);
     }
   }
-  
- 
-    
-
   }
 
   
