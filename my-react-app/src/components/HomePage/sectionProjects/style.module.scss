@@ -7,11 +7,12 @@
   background-color: var(--color-secundary);
   padding: 30px 10%;
   
+  
   ul {
     display: flex;
     gap: 40px;
     white-space: nowrap;
-    animation: scrollContent 50s linear infinite;
+    //animation: scrollContent 20s linear;
     width: 2500px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -39,6 +40,7 @@
     }
   }
   
+  
   @keyframes scrollContent {
     0% {
       transform: translateX(0);
@@ -47,6 +49,7 @@
       transform: translateX(-100%);
     }
   }
+
   }
 
   

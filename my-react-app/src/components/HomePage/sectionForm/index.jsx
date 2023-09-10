@@ -23,8 +23,8 @@ export const SectionForm = () => {
             <option value="Noite">Noite</option>
           </select>
         </div>
-        <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Detalhes Adicionais"></textarea>
-        <button className="textSection" type="submit">Enviar pedido</button>
+        <textarea name="Mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button className="textSection" type="submit">Enviar</button>
       </form>
     </section>
   )}
