@@ -12,15 +12,13 @@
     display: flex;
     gap: 40px;
     white-space: nowrap;
-    //animation: scrollContent 20s linear;
-    width: 2500px;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    
 
     li{
       width: 280px;
       height: 400px;
       position: relative;
+      
       img{
         width: 280px;
         height: 400px;
@@ -40,15 +38,6 @@
     }
   }
   
-  
-  @keyframes scrollContent {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
 
   }
 

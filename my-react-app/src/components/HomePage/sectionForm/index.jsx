@@ -4,7 +4,7 @@ import Construcao from "../../../assets/backgroundForm.png";
 
 export const SectionForm = () => {
   return (
-    <section className={styles.sectionForm}>
+    <section id="sectionForm" className={styles.sectionForm}>
       <img src={Construcao} alt="" className="imgBackground"/>
       <form className={styles.formContact} action="https://formspree.io/f/mwkdbjyk"
   method="POST">
