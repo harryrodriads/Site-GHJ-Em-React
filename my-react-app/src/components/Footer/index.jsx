@@ -5,7 +5,7 @@ import Email from "../../assets/email.svg";
 import LogoInstagram from "../../assets/Instagram.svg";
 import Phone from "../../assets/phone.svg";
 import ScrollButton from "./botao";
-
+ 
 
 
 
@@ -17,6 +17,7 @@ export const Footer = () => {
         <div className={styles.divOne}>
           <h3 className="textCard1">Sobre Nós</h3>
           <p className="textFooter">Temos a confiança necessária para lhe prestar o melhor serviço, com o apoio de RH Profissionais e Certificados que possuímos atualmente e os materiais de elevada qualidade que utilizamos e técnicas de trabalho estruturadas, seremos capazes de concretizar a conclusão atempada dos trabalhos.</p>
+          <p className="textFooter">CNPJ: 49.435.321/0001-08</p>
           <div className={styles.socialLogos}>
             <a href="https://www.instagram.com/empreendimentosghj/?hl=pt-br" target="blank_"><img src={LogoInstagram} alt="" className={styles.imgSocial} /></a>
             <a href="https://www.facebook.com/profile.php?id=61550980054967" target="blank_"><img src={LogoFacebook} alt="" className={styles.imgSocial}/></a>

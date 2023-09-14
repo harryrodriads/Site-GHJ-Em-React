@@ -12,23 +12,28 @@ export const SectionProjects = () => {
       <ul>
         <li>
           <img src={imagePredio} alt="" />
-          <p className="textCard">Prédio Ipanema*</p>
+          <p className="textCard">Jennifer Residence*</p>
+          <h4 className="textCard">Prédio no Bairro Ipanema</h4>
         </li>
         <li>
           <img src={ predio } alt="" />
-          <p className="textCard">Prédio Ipanema2*</p>
+          <p className="textCard">Residencial Franciely*</p>
+          <h4 className="textCard">Prédio no Bairro Ipanema</h4>
         </li>
         <li>
           <img src={ projeto } alt="" />
-          <p className="textCard">Projeto Ipanema*</p>
+          <p className="textCard">Apartamentos no Projeto*</p>
+          <h4 className="textCard">Prédio no Bairro Ipanema</h4>
         </li>
         <li>
           <img src={aguarde} alt="" />
           <p className="textCard">Lançamento</p>
+          <h4 className="textCard"></h4>
         </li>
         <li>
           <img src={aguarde} alt="" />
           <p className="textCard">Lançamento</p>
+          <h4 className="textCard"></h4>
         </li>
       </ul>
       <p className="textCard">*com apartamentos à venda!</p>
