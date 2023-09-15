@@ -16,14 +16,14 @@ export const SectionProjects = () => {
           <h4 className="textCard">Prédio no Bairro Ipanema</h4>
         </li>
         <li>
-          <img src={ predio } alt="" />
-          <p className="textCard">Residencial Franciely*</p>
-          <h4 className="textCard">Prédio no Bairro Ipanema</h4>
-        </li>
-        <li>
           <img src={ projeto } alt="" />
           <p className="textCard">Apartamentos no Projeto*</p>
           <h4 className="textCard">Prédio no Bairro Ipanema</h4>
+        </li>
+        <li>
+          <img src={ aguarde } alt="" />
+          <p className="textCard">Lançamento</p>
+          <h4 className="textCard"></h4>
         </li>
         <li>
           <img src={aguarde} alt="" />
