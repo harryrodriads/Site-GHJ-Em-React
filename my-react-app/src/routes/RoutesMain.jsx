@@ -4,7 +4,6 @@ import { About} from "../pages/About"
 import { Contact} from "../pages/Contact"
 import { JenniferResidence } from "../pages/JenniferResidence"
 
-
 export const RoutesMain = () => {
   return(
     <Routes>

@@ -39,6 +39,34 @@
   margin: 0 10%;
 }
 
+@media (max-width: 850px) {
+  .sectionCarrosel {
+    .divContainer{
+      padding: 30px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionCarrosel {
+    .divContainer{
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+    }
+    
+    .divDescription {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .divSecundary {
+        align-items: center;
+      }
+    }
+  }
+}
+
 
 
 

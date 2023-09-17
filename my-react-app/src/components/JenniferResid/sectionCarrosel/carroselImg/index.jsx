@@ -43,7 +43,7 @@ export const Carousel = () => {
       <Slider {...settings} className={styles.carroselImg}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image} alt={`Slide ${index + 1}`} />
+            <img src={image} alt={`Slide ${index + 1}`} className={styles.imageContainer}/>
           </div>
         ))}
       </Slider>

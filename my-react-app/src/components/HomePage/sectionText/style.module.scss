@@ -1,5 +1,3 @@
-
-
 .sectionText{
   display: flex;
   flex-direction: column;
@@ -7,7 +5,6 @@
   gap: 20px;
   background-color: #191A19;
   padding: 30px 15%;
-
 
   .divText{
     width: 100%;
@@ -25,31 +22,20 @@
         height: 25px;
       }
     }
-
   }
 }
 
 @media (max-width: 1400px) {
   .sectionText{
     padding: 30px 10%;
-    .divText{
-
-    }
   }
 }
 
 @media (max-width: 800px) {
   .sectionText{
     padding: 30px 5%;
-    .divText{
-      .contentCard{
-
-      }
-
-    }
   }
 }
-
 
 @media (max-width: 600px) {
   .sectionText{
@@ -61,7 +47,6 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-
     }
   }
 }

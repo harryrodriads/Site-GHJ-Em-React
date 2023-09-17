@@ -11,7 +11,6 @@
     justify-content: space-between;
   }
 
-
   .imgLogo{
     width: 200px;
     filter: brightness(100)
@@ -79,11 +78,16 @@
   }
 }
 
-@media (max-width: 600px) {
-  .divOne{
+@media (max-width: 350px) {
+  .footerContent{
+    .imgLogo{
+      width: 160px;
+    }
 
+    .imgSocial{
+      width: 25px;
+      height: 25px;
+    }
   }
-    
-  
 }
 
