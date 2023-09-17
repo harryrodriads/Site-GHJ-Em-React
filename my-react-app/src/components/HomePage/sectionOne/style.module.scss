@@ -1,12 +1,10 @@
 
-
 .sectionSobre{
   display: flex;
   justify-content: space-between;
-  padding: 0 15%;
-  padding-top: 50px;
+  padding: 40px 15%;
   background-color: #191A19;
-
+  
   img{
     height: 700px;
   }
@@ -17,6 +15,42 @@
     justify-content: center;
     gap: 10px;
     margin-bottom: 0px;
+    width: 520px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .sectionSobre{
+    flex-direction: column;
+
+    img{
+      height: 500px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionSobre{
+    flex-direction: column;
+    text-align: center;
+    padding: 0 5%;
+    padding-bottom: 40px;
+
+    img{
+      height: 400px;
+    }
+    .divSobre{
+     width: 100%;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .sectionSobre{
+    img{
+      height: 300px;
+    }
 
   }
 }
+

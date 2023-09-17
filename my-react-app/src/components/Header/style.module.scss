@@ -11,14 +11,54 @@
   img{
     padding-top: 30px;
     height: 150px;
-    // filter: brightness(100);
   }
 
   nav{
     display: flex;
     gap: 20px;
   }
-  h2 {
-    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+  .header{
+    padding: 0 5%;
+
   }
 }
+
+@media (max-width: 700px) {
+  .header{
+
+    img{
+      height: 120px;
+    }
+
+    nav{
+      flex-direction: column;
+      gap: 10px;
+    }
+
+  }
+}
+
+@media (max-width: 550px) {
+  .header{
+    img{
+      height: 100px;
+    }
+
+    nav{
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .header{
+    img{
+      height: 90px;
+    }
+  }
+}
+

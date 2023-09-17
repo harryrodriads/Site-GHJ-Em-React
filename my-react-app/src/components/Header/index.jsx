@@ -8,12 +8,11 @@ export const HeaderBar = () => {
     <header id="header" className={styles.header}>
       <a href="#header"><img src={ LogoPadrao} alt="#" /></a>
       <nav>
-      <Link to="/">
-        <h2 className="titleHeader">Pagina Inicial</h2>
-
-      </Link>
-        <h2 className="titleHeader"><a href="#footerContent">Sobre</a></h2>
-        <h2 className="titleHeader"><a href="#sectionForm">Contato</a></h2>
+        <Link to="/">
+            <h2 className="titleNavHeader">Pagina Inicial</h2>
+        </Link>
+        <h2 className="titleNavHeader"><a href="#footerContent">Sobre</a></h2>
+        <h2 className="titleNavHeader"><a href="#sectionForm">Contato</a></h2>
       </nav>
     </header>
   )

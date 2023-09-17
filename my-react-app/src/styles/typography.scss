@@ -7,6 +7,15 @@
   cursor: pointer;
 }
 
+.titleNavHeader{
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-grey5);
+  color: white;
+  cursor: pointer;
+}
+
 .titlebanner{
   font-family: var(--font-family);
   font-size: 64px;
@@ -19,7 +28,7 @@
   font-size: 28px;
   font-weight: 500;
   color: var(--color-white);
-
+  width: 750px;
 }
 
 .numbers{
@@ -44,7 +53,30 @@
   color: var(--color-white);
 }
 
+.textCardBox{
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
 .textCard1{
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.textCard2{
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  color: var(--color-white);
+}
+
+.textSectionCheck{
   font-family: var(--font-family);
   font-size: 20px;
   font-weight: 500;
@@ -59,7 +91,6 @@
   font-weight: 400;
   text-align: center;
   color: var(--color-white);
-
 }
 
 .textAssinatura{
@@ -103,5 +134,138 @@
   font-size: 12px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.50);  
+}
+
+@media (max-width: 850px) {
+  .titlebanner{
+    text-align: center;
+  }
+
+  .textbanner{
+    font-size: 26px;
+    width: 500px;
+  }
+
+  .textCard2{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 600px) {
+  .titlebanner{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .textCardBox{
+    font-size: 18px;
+  }
+
+  .textbanner{
+    font-size: 26px; 
+  }
+
+  .titleSectionProjects{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .textCard{
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .textCard2{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 550px) {
+  .titleNavHeader{
+    font-size: 18px;
+  }
+
+  .textbanner{
+    font-size: 26px;
+    width: 400px;
+  }
+
+  .textFooter{
+    width: 400px;
+  }
+}
+
+@media (max-width: 510px) {
+  .textCardBox{
+    font-size: 16px;
+  }
+
+  .numbers{
+    font-size: 44px;
+
+  }
+}
+
+@media (max-width: 475px) {
+  .titlebanner{
+    font-size: 45px;
+  }
+
+  .textbanner{
+    font-size: 24px;
+  }
+
+  .textSection {
+    font-size: 18px;
+  }
+
+  .textSectionCheck{
+    font-size: 18px;
+  }
+
+  .titleSectionProjects{
+    font-size: 48px;
+  }
+
+  .assinatura{
+    font-size: 55px;
+  }
+
+  .textCardBox{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .textbanner{
+    font-size: 18px;
+    width: 350px;
+  }
+
+  .titlebanner{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .textFooter{
+    width: 290px;
+  }
+
+  .titleNavHeader{
+    font-size: 16px;
+  }
+
+  .titlebanner{
+    font-size: 38px;
+  }
+
+  .textbanner{
+    width: 280px;
+  }
 }
 

@@ -6,7 +6,6 @@
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   background-color: black;
- 
 }
 
 .divContainer {
@@ -33,5 +32,13 @@
 .divSecundary {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Alterado para alinhar à direita */
+  align-items: flex-end; 
 }
+
+.divCarousel {
+  margin: 0 10%;
+}
+
+
+
+

@@ -30,15 +30,46 @@
         bottom: 0; 
         left: 50%; 
         transform: translateX(-50%); 
-        text-align: center; 
         background-color: rgba(0, 0, 0, 0.5); 
-        padding: 10px; 
+        padding-bottom: 10px; 
         z-index: 1;
+        text-align: center;
+        border-radius: 0px 0 10px 10px;
+        width: 280px;
       }
     }
   }
-  
+}
+@media (max-width: 1750px)  {
+  .sectionProjects{
+    padding: 30px 5%;
 
+    ul{
+      overflow-y: hidden;
+      overflow-x: auto;
+      height: 500px;
+    }
   }
+}
+
+@media (max-width: 600px)  {
+  .sectionProjects{
+    ul{
+      height: 320px;
+
+      li{
+        width: 200px;
+        height: 250px;
+
+        img{
+          width: 200px;
+          height: 250px;
+        }
+
+        
+      }
+    }
+  }
+}
 
   

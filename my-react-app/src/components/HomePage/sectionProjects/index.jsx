@@ -39,7 +39,7 @@ export const SectionProjects = () => {
           <h4 className="textCard"></h4>
         </li>
       </ul>
-      <p className="textCard">*com apartamentos à venda!</p>
+      <p className="textCard2">*com apartamentos à venda!</p>
     </section>
     
   )}
