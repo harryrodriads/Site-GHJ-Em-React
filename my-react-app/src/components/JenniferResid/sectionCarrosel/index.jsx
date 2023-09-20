@@ -11,7 +11,7 @@ export const SectionCarrosel = () => {
           <div className={styles.divPrimary}>
             <p>Apartamento no Bairro Ipanema</p>
             <p>IPTU: R$ 0,00</p>
-            <p>Consomínio: R$ 0,00</p>
+            <p>Condomínio: R$ 0,00</p>
           </div>
           <div className={styles.divSecundary}>
             <h3>R$ 250.000,00</h3>

@@ -13,7 +13,7 @@ export const SectionDescription = () => {
     <section className={styles.sectionDescription}>
       <div className={styles.divContainer}>
         <h2>Descrição</h2>
-        <h3>APARTAMENTO PROXIMO AO POSTO DE SAUDE</h3>
+        <h3>APARTAMENTO PRÓXIMO AO POSTO DE SAÚDE:</h3>
         <div>
           <p>Tamanho: 81 m²</p>
           <p>Área externa: 4 m²</p>
@@ -27,7 +27,7 @@ export const SectionDescription = () => {
           <p>3 Quartos, sendo 1 Suíte com Closet</p>
           <p>2 Salas, e Cozinha com Lavanderia</p>
           <p>1 Banheiro Social</p>
-          <p>2º Andar no número 201</p>
+          <p>2º Andar (nº 201)</p>
           <p>Garagem coberta</p>
           <p>Aceita-se Financiamento e pronto para morar!</p>
         </div>

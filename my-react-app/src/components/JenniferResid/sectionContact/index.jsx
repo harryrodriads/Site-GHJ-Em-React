@@ -7,7 +7,7 @@ export const SectionContact = () => {
   return (
     <section  className={styles.sectionContact}>
       <div  className={styles.divContainer}>
-        <h2>Ligue e marque uma visita</h2>
+        <h2>Ligue e marque uma visita!</h2>
 
         <div className={styles.divContact}>
 

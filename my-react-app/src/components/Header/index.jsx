@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const HeaderBar = () => {
   return(
     <header id="header" className={styles.header}>
-      <a href="#header"><img src={ LogoPadrao} alt="#" /></a>
+      <a href="/"><img src={ LogoPadrao} alt="#" /></a>
       <nav>
         <Link to="/">
             <h2 className="titleNavHeader">Pagina Inicial</h2>
