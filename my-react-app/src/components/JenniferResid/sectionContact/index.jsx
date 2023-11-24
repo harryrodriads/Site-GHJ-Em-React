@@ -15,7 +15,7 @@ export const SectionContact = () => {
             <img src={navigation} alt="" />
             <div>
               <h4>Endereço</h4>
-              <p>Rua Dona Lilia - 20 - Ipanema </p>
+              <p>Rua Dona Lilia - 20 - Ipanema I</p>
             </div>
           </div>
 
@@ -23,7 +23,7 @@ export const SectionContact = () => {
             <img src={phone2} alt="" />
             <div>
               <h4>Telefone</h4>
-              <p>(34)99975-0992</p>
+              <p>(34) 99975-0992</p>
             </div>
           </div>
         </div>
