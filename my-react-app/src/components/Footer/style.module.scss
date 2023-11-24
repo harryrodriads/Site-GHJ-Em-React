@@ -6,12 +6,10 @@
   gap: 10px;
   padding: 40px 10%;
   
-
   .divFooter{
     display: flex;
     justify-content: space-between;
   }
-
 
   .imgLogo{
     width: 200px;
@@ -50,3 +48,46 @@
     align-items: center;
   }
 }
+
+@media (max-width: 1400px) {
+  .footerContent{
+    .divFooter{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footerContent{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .divFooter{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .divTwo, .divThree, .divOne { 
+      align-items: center;
+      gap: 5px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .footerContent{
+    .imgLogo{
+      width: 160px;
+    }
+
+    .imgSocial{
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+

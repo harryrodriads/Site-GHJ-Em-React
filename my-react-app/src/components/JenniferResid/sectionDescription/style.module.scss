@@ -1,0 +1,57 @@
+.sectionDescription{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-family-projects);
+  
+  .divContainer{
+    background-color: rgba(0, 0, 0, 0.089);
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+
+    .divSpecifications{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin: 50px  0;
+
+      .containerIcons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: flex-start;
+
+        .cardsIcons{
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          width: 190px;
+          
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .sectionDescription{
+    .divContainer{
+      width: 95%;
+      padding: 30px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sectionDescription{
+    .divContainer{
+      padding: 20px;
+    }
+  }
+}
+

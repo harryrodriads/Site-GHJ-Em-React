@@ -1,0 +1,59 @@
+.sectionContact{
+  font-family: var(--font-family-projects); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .divContainer{
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.089);
+    width: 800px;
+    
+    .divContact{
+      display: flex;
+      flex-direction: column;
+      padding: 50px 0 20px 0;
+      gap: 30px;
+
+      .cardsContact{
+        display: flex;
+        gap: 20px;
+
+      }
+
+      .cardsContact img{
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .sectionContact{
+    .divContainer{
+      width: 95%;
+      padding: 30px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sectionContact{
+    .divContainer{
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionContact{
+    .divContainer{
+      .divContact{
+        .cardsContact img{
+          width: 45px;
+        }
+      }
+    }
+  }
+}

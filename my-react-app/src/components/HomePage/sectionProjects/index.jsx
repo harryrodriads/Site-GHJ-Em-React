@@ -3,6 +3,7 @@ import imagePredio from "../../../assets/predioIpanema.jpeg";
 import predio from "../../../assets/predio2.jpeg";
 import projeto from "../../../assets/projeto.png";
 import aguarde from "../../../assets/aguarde.jpg";
+import { Link } from "react-router-dom";
 
 
 export const SectionProjects = () => {
@@ -11,9 +12,11 @@ export const SectionProjects = () => {
       <h2 className="titleSectionProjects">Projetos</h2>
       <ul>
         <li>
-          <img src={imagePredio} alt="" />
-          <p className="textCard">Jennifer Residence*</p>
-          <h4 className="textCard">Prédio no Bairro Ipanema</h4>
+          <Link to="/JenniferResidence">
+            <img src={imagePredio} alt="" />
+            <p className="textCard">Jennifer Residence*</p>
+            <h4 className="textCard">Prédio no Bairro Ipanema</h4>
+          </Link>
         </li>
         <li>
           <img src={ projeto } alt="" />
@@ -36,9 +39,7 @@ export const SectionProjects = () => {
           <h4 className="textCard"></h4>
         </li>
       </ul>
-      <p className="textCard">*com apartamentos à venda!</p>
+      <p className="textCard2">*com apartamentos à venda!</p>
     </section>
     
-    
-  
   )}
