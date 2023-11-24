@@ -1,10 +1,6 @@
 import styles from "./style.module.scss";
 import LogoPadrao from "../../assets/LogoPadrao.png";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-
-=======
->>>>>>> a93c127ecb7540fa651503f4b6101d1b4f56af20
 
 
 export const HeaderBar = () => {
