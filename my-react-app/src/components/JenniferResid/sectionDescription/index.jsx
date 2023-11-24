@@ -15,23 +15,18 @@ export const SectionDescription = () => {
         <h2>Descrição</h2>
         <h3>APARTAMENTO PRÓXIMO AO POSTO DE SAÚDE:</h3>
         <div>
-          <p>Tamanho: 81 m²</p>
-          <p>Área externa: 4 m²</p>
+          <p>2º Andar (nº 201);</p>
+          <p>Apenas 5 moradores;</p>
+          <p>Água e energia individual;</p>
         </div>
         <div>
-          <p>2º Andar</p>
-          <p>Apenas 5 moradores</p>
-          <p>Água e energia individual</p>
-        </div>
-        <div>
-          <p>3 Quartos, sendo 1 Suíte com Closet</p>
-          <p>2 Salas, e Cozinha com Lavanderia</p>
-          <p>1 Banheiro Social</p>
-          <p>2º Andar (nº 201)</p>
-          <p>Garagem coberta</p>
+          <p>3 Quartos, sendo 1 Suíte com Closet;</p>
+          <p>2 Salas, e Cozinha com Lavanderia;</p>
+          <p>1 Banheiro Social;</p>
+          <p>Garagem coberta;</p>
           <p>Aceita-se Financiamento e pronto para morar!</p>
         </div>
-        <h4>ÚLTIMAS UNIDADES DO JENNIFER RESIDENCE!!</h4>
+        <h4>ÚLTIMAS UNIDADES NO JENNIFER RESIDENCE!!!</h4>
         <h4>Valor: R$ 250.000,00</h4>
 
         <div  className={styles.divSpecifications}>

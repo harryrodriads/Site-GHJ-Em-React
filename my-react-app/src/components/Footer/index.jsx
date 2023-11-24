@@ -29,7 +29,7 @@ export const Footer = () => {
         <div className={styles.divTwo}>
           <h3 className="textCard1">Escritório</h3>
           <p className="textFooter">Rua Jovina dias Teixeira - 115</p>
-          <p className="textFooter">Ipanema</p>
+          <p className="textFooter">Bairro Ipanema I</p>
           <p className="textFooter">Patos de Minas - MG</p>
         </div>
 

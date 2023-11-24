@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   font-family: var(--font-family-projects);
+  text-align: center;
   
   .divContainer{
     background-color: rgba(0, 0, 0, 0.089);
@@ -36,6 +37,10 @@
       }
     }
   }
+}
+
+h2{
+  text-align: center;
 }
 
 @media (max-width: 850px) {
