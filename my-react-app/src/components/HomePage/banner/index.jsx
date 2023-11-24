@@ -1,9 +1,12 @@
 import bannerworkers from "../../../assets/bannerworkers.png";
 import Check from "../../../assets/Check.svg";
 import styles from "./style.module.scss";
+import NumberCounter from '../number/NumberCounter';
+import NumberCounter1 from '../number/NumberCounter1';
 
 
 export const Banner = () => {
+  
   return (
     <section  className={styles.banner}>
       <figure>
@@ -16,12 +19,14 @@ export const Banner = () => {
       </div>
       <div className={styles.divSecundary}> 
         <div  className={styles.card}>
-          <p  className="numbers">25+</p>
-          <p className="titleHeader">Anos de Experiencia</p>
+          <p className="numbers">+</p>
+          <p  className="numbers"><NumberCounter targetNumber={25}/></p>
+          <p className="titleHeader">Anos de Experiência</p>
         </div>         
         <div className={styles.card}>
-          <p className="numbers">100+</p>
-          <p className="titleHeader">Projetos Concluidos</p>
+          <p className="numbers">+</p>
+          <p className="numbers"><NumberCounter1 targetNumber={100}/></p>
+          <p className="titleHeader">Projetos Concluídos</p>
         </div> 
       </div>
       <div className={styles.divBox}>
