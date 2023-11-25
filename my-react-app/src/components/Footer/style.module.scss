@@ -101,10 +101,45 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
+  
   .footerContent{
     .imgLogo{
-      width: 160px;
+      width: 130px;
+    }
+
+    .divOne, .divTwo, .divFooter { 
+      max-width: 300px;
+      align-items: center;
+      gap: 10px;
+    }
+
+    p {
+      max-width: 300px;
+    }
+
+    .imgSocial{
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  
+  .footerContent{
+    .imgLogo{
+      width: 130px;
+    }
+
+    .divOne, .divTwo, .divFooter { 
+      max-width: 300px;
+      align-items: center;
+      gap: 10px;
+    }
+
+    p {
+      max-width: 200px;
     }
 
     .imgSocial{

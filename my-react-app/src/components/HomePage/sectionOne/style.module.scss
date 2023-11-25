@@ -54,3 +54,19 @@
   }
 }
 
+@media (max-width: 400px) {
+  .sectionSobre{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    img{
+      height: 200px;
+    }
+    .divSobre{
+     width: 90%;
+    }
+  }
+}
+

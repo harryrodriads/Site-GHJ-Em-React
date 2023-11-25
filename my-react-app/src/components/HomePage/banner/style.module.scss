@@ -187,12 +187,33 @@
     }
 
     .divBox{
-     width: 280px;
+     width: 300px;
      left: 5%;
     }
 
     .divSecundary{
       padding-left: 20%;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .banner{
+    .divPrimary{
+      top: 10px;
+      left: 10px;
+      width: 200px;
+    }
+
+    .divBox{
+     width: 250px;
+     left: 5%;
+    }
+
+    .divSecundary{
+      padding-left: 20%;
+      padding-top: 25%;
+      padding-bottom: 150px;
     }
   }
 }

@@ -71,4 +71,25 @@
   }
 }
 
+@media (max-width: 400px)  {
+  .sectionProjects{
+    ul{
+      height: 300px;
+
+      li{
+        width: 200px;
+        height: 250px;
+
+        img{
+          width: 200px;
+          height: 250px;
+        } 
+        p {
+          width: 200px;
+        }    
+      }
+    }
+  }
+}
+
   

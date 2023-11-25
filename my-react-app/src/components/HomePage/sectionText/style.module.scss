@@ -50,3 +50,17 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .sectionText{
+    padding: 30px 5%;
+    padding-bottom: 20px;
+
+    .divText{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
