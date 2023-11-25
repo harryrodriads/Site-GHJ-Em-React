@@ -1,36 +1,37 @@
-import {useState} from 'react';
-import {FaArrowCircleUp} from 'react-icons/fa';
-import { Button } from './Styles.jsx';
-  
-const ScrollButton = () =>{
-  
-  const [visible, setVisible] = useState(false)
-  
-  const toggleVisible = () => {
-    const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 300){
-      setVisible(true)
-    } 
-    else if (scrolled <= 300){
-      setVisible(false)
-    }
-  };
-  
-  const scrollToTop = () =>{
+import { useState, useEffect } from 'react';
+import './ScrollToTopButton.css'; // Arquivo de estilos (opcional)
+
+const ScrollToTopButton = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      setIsVisible(scrollTop > 100); // Altere este valor conforme necessário
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
     window.scrollTo({
-      top: 0, 
-      behavior: 'smooth'
+      top: 0,
+      behavior: 'smooth',
     });
   };
-  
-  window.addEventListener('scroll', toggleVisible);
-  
+
   return (
-    <Button>
-     <FaArrowCircleUp onClick={scrollToTop} 
-     style={{display: visible ? 'inline' : 'none'}} />
-    </Button>
+    <button
+      className={`scroll-to-top-button ${isVisible ? 'visible' : 'hidden'}`}
+      onClick={scrollToTop}
+    >
+      Topo ^
+    </button>
   );
-}
-  
-export default ScrollButton;
+};
+
+export default ScrollToTopButton;

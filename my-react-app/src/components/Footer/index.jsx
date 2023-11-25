@@ -4,7 +4,7 @@ import LogoFacebook from "../../assets/Facebook.svg";
 import Email from "../../assets/email.svg";
 import LogoInstagram from "../../assets/Instagram.svg";
 import Phone from "../../assets/phone.svg";
-import ScrollButton from "./botao";
+import ScrollToTopButton from "./botao";
  
 
 
@@ -39,7 +39,7 @@ export const Footer = () => {
           <p className="textFooter">(34) 99975-0992 </p>
         </div>
       </div>
-      <ScrollButton />
+      <ScrollToTopButton />
       <h2 className="textCopyright">Copyright © 2023 CandyAP. All Rights Reserved</h2>
     </footer>
   )}
