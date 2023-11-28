@@ -1,10 +1,11 @@
-# Site da Empresa GHJ - Construção e Empreendimentos
+# Site da Empresa GHJ - Construções e Empreendimentos
 
 # Sobre o projeto
 
 https://empreendimentosghj.vercel.app/
 
-Esse site é uma aplicação React com TypeScript utilizando a ferramenta Vite para a Empresa GHJ - Construção e Empreendimentos;
+Esse site é uma aplicação React com TypeScript utilizando a ferramenta Vite para a Empresa GHJ - Construções e Empreendimentos
+;
 
 A aplicação consiste em divulgar a Empresa, com seus valores, sua história e informações. Também contém um Formulário para contato e seção de Projetos para negociação.
 
@@ -38,9 +39,9 @@ npm run dev
 
 # Autores
 
-Halian Rodrigues Canedo
-Harry Rodrigues Canedo
+- Halian Rodrigues Canedo (https://www.linkedin.com/in/halianrc/)
+- Harry Rodrigues Canedo (https://www.linkedin.com/in/harry-rodrigues/)
 
-https://www.linkedin.com/in/halianrc/
-https://www.linkedin.com/in/harry-rodrigues/
+
+
 
