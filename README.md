@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-https://empreendimentosghj.vercel.app/
+https://empreendimentosghj.com.br/
 
 Esse site é uma aplicação React com TypeScript utilizando a ferramenta Vite para a Empresa GHJ - Construções e Empreendimentos;
 
