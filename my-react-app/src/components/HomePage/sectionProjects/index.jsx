@@ -20,27 +20,30 @@ export const SectionProjects = () => {
         <li>
           <Link>
             <img src={ projeto } alt="" />
-            <p className="textCard">Apartamentos no Projeto*</p>
+            <p className="textCard">Apês no Projeto*</p>
             <h4 className="textCard">Prédio no Bairro Ipanema I</h4>
           </Link>
         </li>
         <li>
           <img src={ aguarde } alt="" />
-          <p className="textCard">Lançamento!</p>
-          <h4 className="textCard"></h4>
+          <p className="textCard">Aguarde...</p>
+          <h4 className="textCard">Lançamento!</h4>
         </li>
         <li>
           <img src={aguarde} alt="" />
-          <p className="textCard">Lançamento!</p>
-          <h4 className="textCard"></h4>
+          <p className="textCard">Aguarde...</p>
+          <h4 className="textCard">Lançamento!</h4>
         </li>
         <li>
           <img src={aguarde} alt="" />
-          <p className="textCard">Lançamento!</p>
-          <h4 className="textCard"></h4>
+          <p className="textCard">Aguarde...</p>
+          <h4 className="textCard">Lançamento!</h4>
         </li>
       </ul>
-      <p className="textCard2">*com apartamentos à venda!</p>
+      <p>
+        <br></br>
+        <br></br>
+      </p>
     </section>
     
   )}
