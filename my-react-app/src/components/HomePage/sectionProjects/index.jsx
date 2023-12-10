@@ -21,7 +21,7 @@ export const SectionProjects = () => {
           <Link>
             <img src={ projeto } alt="" />
             <p className="textCard">Apartamentos no Projeto*</p>
-            <h4 className="textCard">Prédio no Bairro Ipanema</h4>
+            <h4 className="textCard">Prédio no Bairro Ipanema I</h4>
           </Link>
         </li>
         <li>
